@@ -1,0 +1,133 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*-----------------------Header--------------------*/
+
+html h1, p, a, li {
+    color: white;
+}
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  position: sticky;
+  background-color:  rgb(73, 35, 129);
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.445);
+  
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 130px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  
+}
+
+.nav-links ul li  {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+
+.nav-links ul li a{
+    font-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*-----------------------Productos--------------------*/
+
+.main {
+    background-image: linear-gradient(to bottom right, rgb(6, 5, 78) , rgb(83, 12, 131));
+}
+
+.main h1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.Catalogo {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 200px 100px 100px 100px 100px;
+  gap: 50px 50px;
+
+  box-sizing: border-box;
+  width: 95%;
+  height: 500px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+
+  background: rgba(114, 186, 94, 0.05);
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+
+
+}
+
+.Catalogo div {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 213, 70, 0.4);
+box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.445);
+
+  border: 2px dashed rgba(236, 198, 48, 0.5);
+  border-radius: 10px;  
+
+}
+
+.grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;  
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  align-content: left;
+  height: 450px !important;
+  width: 450px !important;
+}
+
+.grid-item18 {
+    grid-column-start: 5;
+    grid-column-end: 5;  
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    height: 450px !important;
+    width: 450px !important;
+  
+    
+  }
+
+/* 
+table {
+   border: 5px solid black;
+   width: 100%;
+   border-spacing: 5px;
+}
+
+table img {
+    
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+
+} */

@@ -1,0 +1,66 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*-----------------------Header--------------------*/
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  position: sticky;
+  background-color: antiquewhite;
+  box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.445);
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 130px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  
+}
+
+.nav-links ul li  {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+
+/*-----------------------Planetas--------------------*/
+
+
+
+
+
+
+/* .Jupiter{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.Neptuno{
+    width: 200px;
+    height: 200px;
+}
+
+/* .table tr {
+  background-color: aqua;
+}
+
+.table2 tr {
+  background-color: blue;
+} */ 
